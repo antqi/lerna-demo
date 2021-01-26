@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = decorator;
-
+module.exports = decorator
+console.log(1111111)
 function decorator() {
-    // TODO
+  // TODO
 }
