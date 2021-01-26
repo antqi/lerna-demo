@@ -1,0 +1,10 @@
+40 error Error: Command failed: git add -- packages/http/package.json packages/http/package-lock.json packages/service/package.json packages/service/package-lock.json packages/components/package.json packages/components/package-lock.json lerna.json
+40 error The following paths are ignored by one of your .gitignore files:
+40 error packages/components/package-lock.json
+40 error packages/http/package-lock.json
+40 error packages/service/package-lock.json
+40 error Use -f if you really want to add them.
+40 error
+40 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+40 error     at /usr/local/lib/node_modules/lerna/node_modules/execa/index.js:278:16
+40 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)

@@ -1,0 +1,33 @@
+{
+  "name": "@lily/components",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "wanqi.xie <wanqi.xie@lilyenglish.com>",
+  "homepage": "https://github.com/antqi/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://nexus.lilyhi.com/repository/npm-hosted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antqi/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/antqi/lerna-demo/issues"
+  },
+  "dependencies": {
+    "@lily/http": "^1.0.0",
+    "vue": "^2.6.12"
+  }
+}
