@@ -1,6 +1,6 @@
 {
   "name": "@lily/service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "wanqi.xie <wanqi.xie@lilyenglish.com>",
   "homepage": "https://github.com/antqi/lerna-demo#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/antqi/lerna-demo/issues"
   },
   "dependencies": {
-    "@lily/http": "^1.0.1",
+    "@lily/http": "^1.0.2",
     "vue": "^2.6.12"
   }
 }
