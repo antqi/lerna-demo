@@ -1,6 +1,6 @@
 {
   "name": "@lily/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "wanqi.xie <wanqi.xie@lilyenglish.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lily/service": "^0.0.1",
+    "@lily/service": "^0.0.2",
     "chalk": "^4.1.0",
     "semver": "^7.3.4"
   },
