@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "http://nexus.lilyhi.com/repository/npm-hosted"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
