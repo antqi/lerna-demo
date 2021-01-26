@@ -21,5 +21,6 @@
   },
   "dependencies": {
     "chalk": "^4.1.0"
-  }
+  },
+  "gitHead": "0b6dc6fb0c7e957c8983e3a2f65782abf7867864"
 }

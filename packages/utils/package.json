@@ -23,5 +23,6 @@
     "@lily/service": "^0.0.1",
     "chalk": "^4.1.0",
     "semver": "^7.3.4"
-  }
+  },
+  "gitHead": "0b6dc6fb0c7e957c8983e3a2f65782abf7867864"
 }
