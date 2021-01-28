@@ -1,8 +1,8 @@
-45 error Error: Command failed: git commit -F /private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/4973c5c2-77a0-471d-b059-b2b7633f9c20/lerna-commit.txt
+45 error Error: Command failed: git commit -F /private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/ad31c582-921d-4eb3-9f3c-5cb4fa03bcad/lerna-commit.txt
 45 error husky > commit-msg (node v14.15.3)
 45 error ⧗   input: Publish
 45 error
-45 error  - @lernaexample/utils@1.2.0
+45 error  - @lernaexample/utils@1.2.1
 45 error ✖   subject may not be empty [subject-empty]
 45 error ✖   type may not be empty [type-empty]
 45 error
