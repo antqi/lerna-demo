@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "commit": "git add . && git-cz",
-    "version1": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md "
+    "version": "lerna version --yes"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
