@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "commit": "git add . && git-cz",
     "version1": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md "
   },
   "devDependencies": {
