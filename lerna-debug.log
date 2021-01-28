@@ -1,16 +1,84 @@
-45 error Error: Command failed: git commit -F /private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/ad31c582-921d-4eb3-9f3c-5cb4fa03bcad/lerna-commit.txt
-45 error husky > commit-msg (node v14.15.3)
-45 error ⧗   input: Publish
-45 error
-45 error  - @lernaexample/utils@1.2.1
-45 error ✖   subject may not be empty [subject-empty]
-45 error ✖   type may not be empty [type-empty]
-45 error
-45 error ✖   found 2 problems, 0 warnings
-45 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-45 error
-45 error husky > commit-msg hook failed (add --no-verify to bypass)
-45 error
-45 error     at makeError (/Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:174:9)
-45 error     at /Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:278:16
-45 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+0 silly argv { _: [ 'version' ], lernaVersion: '3.22.1', '$0': 'lerna' }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/lily-fe/Code/DEMO/lerna-demo
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 5
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "@lernaexample/components@1.0.1-5-g651a51c" => {"lastTagName":"@lernaexample/components@1.0.1","lastVersion":"1.0.1","refCount":"5","sha":"651a51c","isDirty":false}
+14 info Looking for changed packages since @lernaexample/components@1.0.1
+15 silly checking diff packages/components
+16 silly no diff found in @lernaexample/components
+17 silly checking diff packages/decorator
+18 silly found diff in packages/decorator/lib/decorator.js
+19 verbose filtered diff [ 'packages/decorator/lib/decorator.js' ]
+20 silly checking diff packages/utils
+21 silly found diff in packages/utils/CHANGELOG.md
+21 silly found diff in packages/utils/lib/utils.js
+21 silly found diff in packages/utils/package-lock.json
+21 silly found diff in packages/utils/package.json
+22 verbose filtered diff [
+22 verbose filtered diff   'packages/utils/CHANGELOG.md',
+22 verbose filtered diff   'packages/utils/lib/utils.js',
+22 verbose filtered diff   'packages/utils/package-lock.json',
+22 verbose filtered diff   'packages/utils/package.json'
+22 verbose filtered diff ]
+23 verbose updated @lernaexample/decorator
+24 verbose updated @lernaexample/utils
+25 verbose git-describe undefined => "@lernaexample/components@1.0.1-5-g651a51c"
+26 silly git-describe parsed => {"lastTagName":"@lernaexample/components@1.0.1","lastVersion":"1.0.1","refCount":"5","sha":"651a51c","isDirty":false}
+27 info execute Skipping releases
+28 silly lifecycle No script for "preversion" in "root", continuing
+29 silly lifecycle No script for "preversion" in "@lernaexample/decorator", continuing
+30 silly lifecycle No script for "preversion" in "@lernaexample/utils", continuing
+31 silly lifecycle No script for "version" in "@lernaexample/utils", continuing
+32 silly lifecycle No script for "version" in "@lernaexample/decorator", continuing
+33 silly lifecycle "version" starting in "root"
+34 info lifecycle root@undefined~version: root@undefined
+35 verbose lifecycle root@undefined~version: unsafe-perm in lifecycle true
+36 verbose lifecycle root@undefined~version: PATH: /Users/lily-fe/Code/DEMO/lerna-demo/node_modules/npm-lifecycle/node-gyp-bin:/Users/lily-fe/Code/DEMO/lerna-demo/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+37 verbose lifecycle root@undefined~version: CWD: /Users/lily-fe/Code/DEMO/lerna-demo
+38 silly lifecycle root@undefined~version: Args: [
+38 silly lifecycle   '-c',
+38 silly lifecycle   'conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md'
+38 silly lifecycle ]
+39 silly lifecycle root@undefined~version: Returned: code: 0  signal: null
+40 silly lifecycle "version" finished in "root"
+41 silly gitAdd [
+41 silly gitAdd   'packages/utils/package.json',
+41 silly gitAdd   'packages/utils/package-lock.json',
+41 silly gitAdd   'packages/decorator/package.json',
+41 silly gitAdd   'packages/decorator/package-lock.json'
+41 silly gitAdd ]
+42 silly gitCommit Publish
+42 silly gitCommit
+42 silly gitCommit  - @lernaexample/decorator@1.0.3
+42 silly gitCommit  - @lernaexample/utils@1.2.2
+43 verbose git [
+43 verbose git   'commit',
+43 verbose git   '-F',
+43 verbose git   '/private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/66cedc02-0e84-4fc1-aeb7-c52e896ceccc/lerna-commit.txt'
+43 verbose git ]
+44 error Error: Command failed: git commit -F /private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/66cedc02-0e84-4fc1-aeb7-c52e896ceccc/lerna-commit.txt
+44 error husky > commit-msg (node v14.15.3)
+44 error ⧗   input: Publish
+44 error
+44 error  - @lernaexample/decorator@1.0.3
+44 error  - @lernaexample/utils@1.2.2
+44 error ✖   subject may not be empty [subject-empty]
+44 error ✖   type may not be empty [type-empty]
+44 error
+44 error ✖   found 2 problems, 0 warnings
+44 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+44 error
+44 error husky > commit-msg hook failed (add --no-verify to bypass)
+44 error
+44 error     at makeError (/Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:174:9)
+44 error     at /Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:278:16
+44 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)

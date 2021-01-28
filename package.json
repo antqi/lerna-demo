@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version1": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md "
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
