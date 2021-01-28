@@ -1,16 +1,16 @@
-48 error Error: Command failed: git commit -F /private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/4811dc02-50c7-4323-8d02-c592655f91c9/lerna-commit.txt
-48 error husky > commit-msg (node v14.15.3)
-48 error ⧗   input: Publish
-48 error
-48 error  - @lernaexample/utils@1.1.0
-48 error ✖   subject may not be empty [subject-empty]
-48 error ✖   type may not be empty [type-empty]
-48 error
-48 error ✖   found 2 problems, 0 warnings
-48 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-48 error
-48 error husky > commit-msg hook failed (add --no-verify to bypass)
-48 error
-48 error     at makeError (/Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:174:9)
-48 error     at /Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:278:16
-48 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+45 error Error: Command failed: git commit -F /private/var/folders/_6/7r5k7sg10h79n6ybzp53zhh00000gn/T/4973c5c2-77a0-471d-b059-b2b7633f9c20/lerna-commit.txt
+45 error husky > commit-msg (node v14.15.3)
+45 error ⧗   input: Publish
+45 error
+45 error  - @lernaexample/utils@1.2.0
+45 error ✖   subject may not be empty [subject-empty]
+45 error ✖   type may not be empty [type-empty]
+45 error
+45 error ✖   found 2 problems, 0 warnings
+45 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+45 error
+45 error husky > commit-msg hook failed (add --no-verify to bypass)
+45 error
+45 error     at makeError (/Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:174:9)
+45 error     at /Users/lily-fe/Code/DEMO/lerna-demo/node_modules/execa/index.js:278:16
+45 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)

@@ -1,3 +1,21 @@
+# [](https://github.com/antqi/lerna-demo/compare/v1.0.0...v) (2021-01-28)
+
+
+### Bug Fixes
+
+* ceshi ([50803d3](https://github.com/antqi/lerna-demo/commit/50803d3dd455739dbfb1e8b82016efadf2b3c38d))
+
+
+### Features
+
+* 测试 ([02ee0b3](https://github.com/antqi/lerna-demo/commit/02ee0b3f6af33461e8f6d267045da69c31ab0395))
+* 测试 ([42917f7](https://github.com/antqi/lerna-demo/commit/42917f72def9189498f330021488d67c07a34926))
+* 修改名称 ([dcf238e](https://github.com/antqi/lerna-demo/commit/dcf238ede5662cc9da32ef0b2906736d03d9133d))
+* independent ([89da698](https://github.com/antqi/lerna-demo/commit/89da6987c9e2ea0469109a79c80811e504c7e46b))
+* npmrc ([d7be523](https://github.com/antqi/lerna-demo/commit/d7be52339e86bbdc42b3fea643bfbab2b5d11ccb))
+
+
+
 # [](https://github.com/antqi/lerna-demo/compare/v1.0.0...v) (2021-01-27)
 
 
